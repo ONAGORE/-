@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>灰隼工作室商铺中转</title>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -54,7 +54,7 @@
     </style>
 </head>
 <body>
-    <h1></h1>
+    <h1>灰隼工作室商铺中转</h1>
     <ul>
         <li>
             <a href="https://channels.weixin.qq.com/shop/b/jlgs6z1iAf7b72x?entrance_id=h5" target="_blank">

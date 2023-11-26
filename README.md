@@ -55,7 +55,7 @@
         }
 
         /* 响应式设计 */
-        @media only screen and (max-width: 600px) {
+        @media only screen and (max-width: 1080px) {
             h1 {
                 font-size: 20px;
                 margin-top: 10px;

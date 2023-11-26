@@ -12,6 +12,7 @@
             margin: 0;
             padding: 0;
             background: url('https://s1.wzznft.com/i/2023/11/25/sgr59f.jpg') center/cover no-repeat fixed;
+            background-size: cover; /* 添加此行 */
         }
 
         h1 {

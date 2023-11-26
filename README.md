@@ -17,7 +17,7 @@
         h1 {
             color: #fff;
             font-size: 28px;
-            margin-top: 50px;
+            margin-top: 20px;
         }
 
         ul {
@@ -53,6 +53,18 @@
             font-size: 18px;
             margin-left: 5px;
         }
+
+        /* 响应式设计 */
+        @media only screen and (max-width: 600px) {
+            h1 {
+                font-size: 20px;
+                margin-top: 10px;
+            }
+
+            a {
+                padding: 8px 16px;
+            }
+        }
     </style>
 </head>
 
@@ -80,7 +92,7 @@
         <li>
             <a href="https://v.douyin.com/iRb33g4w/" target="_blank">
                 抖音链接
-                <span class="icon">&#127918;</span> <!-- Unicode 抖音符号 -->
+                <span class="icon">&#127918;</span>
             </a>
         </li>
         <!-- 添加更多链接 -->

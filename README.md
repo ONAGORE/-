@@ -11,13 +11,14 @@
             text-align: center;
             margin: 0;
             padding: 0;
-            background: url('https://i.postimg.cc/q7CWzQpq/1.jpg') center/contain no-repeat fixed;
-            background-size: contain;
+            background: url('https://i.postimg.cc/q7CWzQpq/1.jpg') center/cover no-repeat fixed;
+            background-size: cover;
+            color: #333; /* 主体文本颜色为深灰色 */
         }
 
         h1 {
-            color: #fff;
-            font-size: 28px;
+            color: #1a1a1a; /* 深灰色标题 */
+            font-size: 32px;
             margin-top: 20px;
         }
 
@@ -35,19 +36,18 @@
 
         a {
             text-decoration: none;
-            color: #000;
-            padding: 10px 20px;
-            background-color: #87CEFA; /* Light Blue color */
+            color: #fff;
+            padding: 12px 24px;
             border: 2px solid #fff;
             border-radius: 5px;
             transition: background-color 0.3s, color 0.3s;
             display: flex;
             align-items: center;
+            background: linear-gradient(to right, #4CAF50, #45a049); /* 渐变背景色，绿色调 */
         }
 
         a:hover {
-            background-color: #007BFF; /* Darker Blue color on hover */
-            color: #fff;
+            background: linear-gradient(to right, #45a049, #4CAF50); /* 鼠标悬停时颜色反转 */
         }
 
         .icon {
@@ -58,12 +58,11 @@
         /* 响应式设计 */
         @media only screen and (max-width: 1080px) {
             h1 {
-                font-size: 20px;
-                margin-top: 10px;
+                font-size: 28px;
             }
 
             a {
-                padding: 8px 16px;
+                padding: 10px 20px;
             }
         }
     </style>
